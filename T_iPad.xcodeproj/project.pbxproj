@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A5CF34229BBD26002961B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A5CF33229BBD26002961B8 /* AppDelegate.m */; };
+		52A5CF37229BBD26002961B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A5CF36229BBD26002961B8 /* ViewController.m */; };
+		52A5CF3A229BBD26002961B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A5CF38229BBD26002961B8 /* Main.storyboard */; };
+		52A5CF3C229BBD27002961B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A5CF3B229BBD27002961B8 /* Assets.xcassets */; };
+		52A5CF3F229BBD27002961B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A5CF3D229BBD27002961B8 /* LaunchScreen.storyboard */; };
+		52A5CF42229BBD27002961B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A5CF41229BBD27002961B8 /* main.m */; };
+		52A5CF4C229BBD27002961B8 /* T_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A5CF4B229BBD27002961B8 /* T_iPadTests.m */; };
+		52A5CF57229BBD27002961B8 /* T_iPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A5CF56229BBD27002961B8 /* T_iPadUITests.m */; };
+		52FE9C44229E2DBD00B71C01 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52FE9C41229E2DBD00B71C01 /* README.txt */; };
+		52FE9C45229E2DBD00B71C01 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C43229E2DBD00B71C01 /* libWeChatSDK.a */; };
+		52FE9C48229E2E9200B71C01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C47229E2E9200B71C01 /* SystemConfiguration.framework */; };
+		52FE9C4A229E2EAE00B71C01 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C49229E2EAE00B71C01 /* libz.tbd */; };
+		52FE9C4C229E2EB500B71C01 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C4B229E2EB500B71C01 /* libsqlite3.0.tbd */; };
+		52FE9C4E229E2EBD00B71C01 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C4D229E2EBD00B71C01 /* libc++.tbd */; };
+		52FE9C50229E2EC500B71C01 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C4F229E2EC500B71C01 /* Security.framework */; };
+		52FE9C52229E2ECC00B71C01 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C51229E2ECC00B71C01 /* CoreTelephony.framework */; };
+		52FE9C54229E2ED200B71C01 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C53229E2ED200B71C01 /* CFNetwork.framework */; };
+		52FE9C56229E2ED900B71C01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE9C55229E2ED900B71C01 /* CoreGraphics.framework */; };
+		52FE9C60229E31E500B71C01 /* ShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C58229E31E500B71C01 /* ShareItem.m */; };
+		52FE9C61229E31E500B71C01 /* ShareConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C59229E31E500B71C01 /* ShareConfiguration.m */; };
+		52FE9C62229E31E500B71C01 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C5A229E31E500B71C01 /* ShareView.m */; };
+		52FE9C63229E31E500B71C01 /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C5F229E31E500B71C01 /* ShareManager.m */; };
+		52FE9C66229E347E00B71C01 /* BaseTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C65229E347E00B71C01 /* BaseTipView.m */; };
+		52FE9C82229E362D00B71C01 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C69229E362D00B71C01 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		52FE9C83229E362D00B71C01 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C72229E362D00B71C01 /* ViewController+MASAdditions.m */; };
+		52FE9C84229E362D00B71C01 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C76229E362D00B71C01 /* MASCompositeConstraint.m */; };
+		52FE9C85229E362D00B71C01 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C77229E362D00B71C01 /* MASConstraintMaker.m */; };
+		52FE9C86229E362D00B71C01 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C78229E362D00B71C01 /* MASLayoutConstraint.m */; };
+		52FE9C87229E362D00B71C01 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C79229E362D00B71C01 /* NSArray+MASAdditions.m */; };
+		52FE9C88229E362D00B71C01 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C7A229E362D00B71C01 /* View+MASAdditions.m */; };
+		52FE9C89229E362D00B71C01 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C7D229E362D00B71C01 /* MASConstraint.m */; };
+		52FE9C8A229E362D00B71C01 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C7F229E362D00B71C01 /* MASViewConstraint.m */; };
+		52FE9C8B229E362D00B71C01 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9C80229E362D00B71C01 /* MASViewAttribute.m */; };
+		52FE9CB4229E641E00B71C01 /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52FE9CA6229E641E00B71C01 /* SGQRCode.bundle */; };
+		52FE9CB5229E641E00B71C01 /* UIImage+ImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9CA9229E641E00B71C01 /* UIImage+ImageSize.m */; };
+		52FE9CB6229E641E00B71C01 /* SGQRCodeHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9CAA229E641E00B71C01 /* SGQRCodeHelperTool.m */; };
+		52FE9CB7229E641E00B71C01 /* SGQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9CAB229E641E00B71C01 /* SGQRCodeScanningView.m */; };
+		52FE9CB8229E641E00B71C01 /* SGQRCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9CAC229E641E00B71C01 /* SGQRCodeScanManager.m */; };
+		52FE9CB9229E641E00B71C01 /* SGQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9CAD229E641E00B71C01 /* SGQRCodeGenerateManager.m */; };
+		52FE9CBA229E641E00B71C01 /* SGQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE9CB2229E641E00B71C01 /* SGQRCodeAlbumManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52A5CF48229BBD27002961B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A5CF27229BBD26002961B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A5CF2E229BBD26002961B8;
+			remoteInfo = T_iPad;
+		};
+		52A5CF53229BBD27002961B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A5CF27229BBD26002961B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A5CF2E229BBD26002961B8;
+			remoteInfo = T_iPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52A5CF2F229BBD26002961B8 /* T_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A5CF32229BBD26002961B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52A5CF33229BBD26002961B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52A5CF35229BBD26002961B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52A5CF36229BBD26002961B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52A5CF39229BBD26002961B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52A5CF3B229BBD27002961B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A5CF3E229BBD27002961B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52A5CF40229BBD27002961B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A5CF41229BBD27002961B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52A5CF47229BBD27002961B8 /* T_iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T_iPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A5CF4B229BBD27002961B8 /* T_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T_iPadTests.m; sourceTree = "<group>"; };
+		52A5CF4D229BBD27002961B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A5CF52229BBD27002961B8 /* T_iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T_iPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A5CF56229BBD27002961B8 /* T_iPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T_iPadUITests.m; sourceTree = "<group>"; };
+		52A5CF58229BBD27002961B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FE9C3F229E2DBD00B71C01 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		52FE9C40229E2DBD00B71C01 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		52FE9C41229E2DBD00B71C01 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		52FE9C42229E2DBD00B71C01 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		52FE9C43229E2DBD00B71C01 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		52FE9C47229E2E9200B71C01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52FE9C49229E2EAE00B71C01 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		52FE9C4B229E2EB500B71C01 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		52FE9C4D229E2EBD00B71C01 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		52FE9C4F229E2EC500B71C01 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		52FE9C51229E2ECC00B71C01 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		52FE9C53229E2ED200B71C01 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		52FE9C55229E2ED900B71C01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52FE9C58229E31E500B71C01 /* ShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareItem.m; sourceTree = "<group>"; };
+		52FE9C59229E31E500B71C01 /* ShareConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareConfiguration.m; sourceTree = "<group>"; };
+		52FE9C5A229E31E500B71C01 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		52FE9C5B229E31E500B71C01 /* ShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
+		52FE9C5C229E31E500B71C01 /* ShareConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareConfiguration.h; sourceTree = "<group>"; };
+		52FE9C5D229E31E500B71C01 /* ShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareItem.h; sourceTree = "<group>"; };
+		52FE9C5E229E31E500B71C01 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		52FE9C5F229E31E500B71C01 /* ShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
+		52FE9C64229E347E00B71C01 /* BaseTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTipView.h; sourceTree = "<group>"; };
+		52FE9C65229E347E00B71C01 /* BaseTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTipView.m; sourceTree = "<group>"; };
+		52FE9C68229E362D00B71C01 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		52FE9C69229E362D00B71C01 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		52FE9C6A229E362D00B71C01 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		52FE9C6B229E362D00B71C01 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		52FE9C6C229E362D00B71C01 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		52FE9C6D229E362D00B71C01 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		52FE9C6E229E362D00B71C01 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		52FE9C6F229E362D00B71C01 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		52FE9C70229E362D00B71C01 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		52FE9C71229E362D00B71C01 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		52FE9C72229E362D00B71C01 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		52FE9C73229E362D00B71C01 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		52FE9C74229E362D00B71C01 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		52FE9C75229E362D00B71C01 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		52FE9C76229E362D00B71C01 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		52FE9C77229E362D00B71C01 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		52FE9C78229E362D00B71C01 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		52FE9C79229E362D00B71C01 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		52FE9C7A229E362D00B71C01 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		52FE9C7B229E362D00B71C01 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		52FE9C7C229E362D00B71C01 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		52FE9C7D229E362D00B71C01 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		52FE9C7E229E362D00B71C01 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		52FE9C7F229E362D00B71C01 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		52FE9C80229E362D00B71C01 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		52FE9C81229E362D00B71C01 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FE9CA5229E641E00B71C01 /* SGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
+		52FE9CA6229E641E00B71C01 /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
+		52FE9CA8229E641E00B71C01 /* UIImage+ImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageSize.h"; sourceTree = "<group>"; };
+		52FE9CA9229E641E00B71C01 /* UIImage+ImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageSize.m"; sourceTree = "<group>"; };
+		52FE9CAA229E641E00B71C01 /* SGQRCodeHelperTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeHelperTool.m; sourceTree = "<group>"; };
+		52FE9CAB229E641E00B71C01 /* SGQRCodeScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanningView.m; sourceTree = "<group>"; };
+		52FE9CAC229E641E00B71C01 /* SGQRCodeScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanManager.m; sourceTree = "<group>"; };
+		52FE9CAD229E641E00B71C01 /* SGQRCodeGenerateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		52FE9CAE229E641E00B71C01 /* SGQRCodeAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeAlbumManager.h; sourceTree = "<group>"; };
+		52FE9CAF229E641E00B71C01 /* SGQRCodeHelperTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeHelperTool.h; sourceTree = "<group>"; };
+		52FE9CB0229E641E00B71C01 /* SGQRCodeScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanningView.h; sourceTree = "<group>"; };
+		52FE9CB1229E641E00B71C01 /* SGQRCodeScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanManager.h; sourceTree = "<group>"; };
+		52FE9CB2229E641E00B71C01 /* SGQRCodeAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeAlbumManager.m; sourceTree = "<group>"; };
+		52FE9CB3229E641E00B71C01 /* SGQRCodeGenerateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeGenerateManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A5CF2C229BBD26002961B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE9C56229E2ED900B71C01 /* CoreGraphics.framework in Frameworks */,
+				52FE9C54229E2ED200B71C01 /* CFNetwork.framework in Frameworks */,
+				52FE9C52229E2ECC00B71C01 /* CoreTelephony.framework in Frameworks */,
+				52FE9C50229E2EC500B71C01 /* Security.framework in Frameworks */,
+				52FE9C4E229E2EBD00B71C01 /* libc++.tbd in Frameworks */,
+				52FE9C4C229E2EB500B71C01 /* libsqlite3.0.tbd in Frameworks */,
+				52FE9C4A229E2EAE00B71C01 /* libz.tbd in Frameworks */,
+				52FE9C48229E2E9200B71C01 /* SystemConfiguration.framework in Frameworks */,
+				52FE9C45229E2DBD00B71C01 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A5CF44229BBD27002961B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A5CF4F229BBD27002961B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A5CF26229BBD26002961B8 = {
+			isa = PBXGroup;
+			children = (
+				52A5CF31229BBD26002961B8 /* T_iPad */,
+				52A5CF4A229BBD27002961B8 /* T_iPadTests */,
+				52A5CF55229BBD27002961B8 /* T_iPadUITests */,
+				52A5CF30229BBD26002961B8 /* Products */,
+				52FE9C46229E2E9200B71C01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52A5CF30229BBD26002961B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A5CF2F229BBD26002961B8 /* T_iPad.app */,
+				52A5CF47229BBD27002961B8 /* T_iPadTests.xctest */,
+				52A5CF52229BBD27002961B8 /* T_iPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A5CF31229BBD26002961B8 /* T_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				52FE9CA4229E641E00B71C01 /* SGQRCode */,
+				52FE9C67229E362D00B71C01 /* Masonry */,
+				52FE9C57229E31E500B71C01 /* ShareComponent */,
+				52FE9C3E229E2DBD00B71C01 /* WeChatSDK1.8.4_NoPay */,
+				52A5CF32229BBD26002961B8 /* AppDelegate.h */,
+				52A5CF33229BBD26002961B8 /* AppDelegate.m */,
+				52A5CF35229BBD26002961B8 /* ViewController.h */,
+				52A5CF36229BBD26002961B8 /* ViewController.m */,
+				52A5CF38229BBD26002961B8 /* Main.storyboard */,
+				52A5CF3B229BBD27002961B8 /* Assets.xcassets */,
+				52A5CF3D229BBD27002961B8 /* LaunchScreen.storyboard */,
+				52A5CF40229BBD27002961B8 /* Info.plist */,
+				52A5CF41229BBD27002961B8 /* main.m */,
+			);
+			path = T_iPad;
+			sourceTree = "<group>";
+		};
+		52A5CF4A229BBD27002961B8 /* T_iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				52A5CF4B229BBD27002961B8 /* T_iPadTests.m */,
+				52A5CF4D229BBD27002961B8 /* Info.plist */,
+			);
+			path = T_iPadTests;
+			sourceTree = "<group>";
+		};
+		52A5CF55229BBD27002961B8 /* T_iPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52A5CF56229BBD27002961B8 /* T_iPadUITests.m */,
+				52A5CF58229BBD27002961B8 /* Info.plist */,
+			);
+			path = T_iPadUITests;
+			sourceTree = "<group>";
+		};
+		52FE9C3E229E2DBD00B71C01 /* WeChatSDK1.8.4_NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				52FE9C3F229E2DBD00B71C01 /* WXApi.h */,
+				52FE9C40229E2DBD00B71C01 /* WXApiObject.h */,
+				52FE9C41229E2DBD00B71C01 /* README.txt */,
+				52FE9C42229E2DBD00B71C01 /* WechatAuthSDK.h */,
+				52FE9C43229E2DBD00B71C01 /* libWeChatSDK.a */,
+			);
+			path = WeChatSDK1.8.4_NoPay;
+			sourceTree = "<group>";
+		};
+		52FE9C46229E2E9200B71C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52FE9C55229E2ED900B71C01 /* CoreGraphics.framework */,
+				52FE9C53229E2ED200B71C01 /* CFNetwork.framework */,
+				52FE9C51229E2ECC00B71C01 /* CoreTelephony.framework */,
+				52FE9C4F229E2EC500B71C01 /* Security.framework */,
+				52FE9C4D229E2EBD00B71C01 /* libc++.tbd */,
+				52FE9C4B229E2EB500B71C01 /* libsqlite3.0.tbd */,
+				52FE9C49229E2EAE00B71C01 /* libz.tbd */,
+				52FE9C47229E2E9200B71C01 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52FE9C57229E31E500B71C01 /* ShareComponent */ = {
+			isa = PBXGroup;
+			children = (
+				52FE9C5C229E31E500B71C01 /* ShareConfiguration.h */,
+				52FE9C59229E31E500B71C01 /* ShareConfiguration.m */,
+				52FE9C64229E347E00B71C01 /* BaseTipView.h */,
+				52FE9C65229E347E00B71C01 /* BaseTipView.m */,
+				52FE9C5E229E31E500B71C01 /* ShareView.h */,
+				52FE9C5A229E31E500B71C01 /* ShareView.m */,
+				52FE9C5B229E31E500B71C01 /* ShareManager.h */,
+				52FE9C5F229E31E500B71C01 /* ShareManager.m */,
+				52FE9C5D229E31E500B71C01 /* ShareItem.h */,
+				52FE9C58229E31E500B71C01 /* ShareItem.m */,
+			);
+			path = ShareComponent;
+			sourceTree = "<group>";
+		};
+		52FE9C67229E362D00B71C01 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				52FE9C68229E362D00B71C01 /* MASCompositeConstraint.h */,
+				52FE9C69229E362D00B71C01 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				52FE9C6A229E362D00B71C01 /* MASConstraint+Private.h */,
+				52FE9C6B229E362D00B71C01 /* MASLayoutConstraint.h */,
+				52FE9C6C229E362D00B71C01 /* NSArray+MASShorthandAdditions.h */,
+				52FE9C6D229E362D00B71C01 /* MASConstraintMaker.h */,
+				52FE9C6E229E362D00B71C01 /* View+MASAdditions.h */,
+				52FE9C6F229E362D00B71C01 /* NSArray+MASAdditions.h */,
+				52FE9C70229E362D00B71C01 /* MASUtilities.h */,
+				52FE9C71229E362D00B71C01 /* MASViewAttribute.h */,
+				52FE9C72229E362D00B71C01 /* ViewController+MASAdditions.m */,
+				52FE9C73229E362D00B71C01 /* MASViewConstraint.h */,
+				52FE9C74229E362D00B71C01 /* MASConstraint.h */,
+				52FE9C75229E362D00B71C01 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				52FE9C76229E362D00B71C01 /* MASCompositeConstraint.m */,
+				52FE9C77229E362D00B71C01 /* MASConstraintMaker.m */,
+				52FE9C78229E362D00B71C01 /* MASLayoutConstraint.m */,
+				52FE9C79229E362D00B71C01 /* NSArray+MASAdditions.m */,
+				52FE9C7A229E362D00B71C01 /* View+MASAdditions.m */,
+				52FE9C7B229E362D00B71C01 /* View+MASShorthandAdditions.h */,
+				52FE9C7C229E362D00B71C01 /* Masonry.h */,
+				52FE9C7D229E362D00B71C01 /* MASConstraint.m */,
+				52FE9C7E229E362D00B71C01 /* ViewController+MASAdditions.h */,
+				52FE9C7F229E362D00B71C01 /* MASViewConstraint.m */,
+				52FE9C80229E362D00B71C01 /* MASViewAttribute.m */,
+				52FE9C81229E362D00B71C01 /* Info.plist */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		52FE9CA4229E641E00B71C01 /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				52FE9CA5229E641E00B71C01 /* SGQRCode.h */,
+				52FE9CA6229E641E00B71C01 /* SGQRCode.bundle */,
+				52FE9CA7229E641E00B71C01 /* Category */,
+				52FE9CAA229E641E00B71C01 /* SGQRCodeHelperTool.m */,
+				52FE9CAB229E641E00B71C01 /* SGQRCodeScanningView.m */,
+				52FE9CAC229E641E00B71C01 /* SGQRCodeScanManager.m */,
+				52FE9CAD229E641E00B71C01 /* SGQRCodeGenerateManager.m */,
+				52FE9CAE229E641E00B71C01 /* SGQRCodeAlbumManager.h */,
+				52FE9CAF229E641E00B71C01 /* SGQRCodeHelperTool.h */,
+				52FE9CB0229E641E00B71C01 /* SGQRCodeScanningView.h */,
+				52FE9CB1229E641E00B71C01 /* SGQRCodeScanManager.h */,
+				52FE9CB2229E641E00B71C01 /* SGQRCodeAlbumManager.m */,
+				52FE9CB3229E641E00B71C01 /* SGQRCodeGenerateManager.h */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		52FE9CA7229E641E00B71C01 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				52FE9CA8229E641E00B71C01 /* UIImage+ImageSize.h */,
+				52FE9CA9229E641E00B71C01 /* UIImage+ImageSize.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A5CF2E229BBD26002961B8 /* T_iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A5CF5B229BBD27002961B8 /* Build configuration list for PBXNativeTarget "T_iPad" */;
+			buildPhases = (
+				52A5CF2B229BBD26002961B8 /* Sources */,
+				52A5CF2C229BBD26002961B8 /* Frameworks */,
+				52A5CF2D229BBD26002961B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T_iPad;
+			productName = T_iPad;
+			productReference = 52A5CF2F229BBD26002961B8 /* T_iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52A5CF46229BBD27002961B8 /* T_iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A5CF5E229BBD27002961B8 /* Build configuration list for PBXNativeTarget "T_iPadTests" */;
+			buildPhases = (
+				52A5CF43229BBD27002961B8 /* Sources */,
+				52A5CF44229BBD27002961B8 /* Frameworks */,
+				52A5CF45229BBD27002961B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A5CF49229BBD27002961B8 /* PBXTargetDependency */,
+			);
+			name = T_iPadTests;
+			productName = T_iPadTests;
+			productReference = 52A5CF47229BBD27002961B8 /* T_iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52A5CF51229BBD27002961B8 /* T_iPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A5CF61229BBD27002961B8 /* Build configuration list for PBXNativeTarget "T_iPadUITests" */;
+			buildPhases = (
+				52A5CF4E229BBD27002961B8 /* Sources */,
+				52A5CF4F229BBD27002961B8 /* Frameworks */,
+				52A5CF50229BBD27002961B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A5CF54229BBD27002961B8 /* PBXTargetDependency */,
+			);
+			name = T_iPadUITests;
+			productName = T_iPadUITests;
+			productReference = 52A5CF52229BBD27002961B8 /* T_iPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A5CF27229BBD26002961B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = targetios;
+				TargetAttributes = {
+					52A5CF2E229BBD26002961B8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					52A5CF46229BBD27002961B8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 52A5CF2E229BBD26002961B8;
+					};
+					52A5CF51229BBD27002961B8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 52A5CF2E229BBD26002961B8;
+					};
+				};
+			};
+			buildConfigurationList = 52A5CF2A229BBD26002961B8 /* Build configuration list for PBXProject "T_iPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A5CF26229BBD26002961B8;
+			productRefGroup = 52A5CF30229BBD26002961B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A5CF2E229BBD26002961B8 /* T_iPad */,
+				52A5CF46229BBD27002961B8 /* T_iPadTests */,
+				52A5CF51229BBD27002961B8 /* T_iPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A5CF2D229BBD26002961B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE9CB4229E641E00B71C01 /* SGQRCode.bundle in Resources */,
+				52A5CF3F229BBD27002961B8 /* LaunchScreen.storyboard in Resources */,
+				52A5CF3C229BBD27002961B8 /* Assets.xcassets in Resources */,
+				52FE9C44229E2DBD00B71C01 /* README.txt in Resources */,
+				52A5CF3A229BBD26002961B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A5CF45229BBD27002961B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A5CF50229BBD27002961B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A5CF2B229BBD26002961B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE9C89229E362D00B71C01 /* MASConstraint.m in Sources */,
+				52FE9CB7229E641E00B71C01 /* SGQRCodeScanningView.m in Sources */,
+				52FE9C87229E362D00B71C01 /* NSArray+MASAdditions.m in Sources */,
+				52FE9C60229E31E500B71C01 /* ShareItem.m in Sources */,
+				52FE9C63229E31E500B71C01 /* ShareManager.m in Sources */,
+				52FE9C82229E362D00B71C01 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				52FE9C8B229E362D00B71C01 /* MASViewAttribute.m in Sources */,
+				52A5CF37229BBD26002961B8 /* ViewController.m in Sources */,
+				52FE9C8A229E362D00B71C01 /* MASViewConstraint.m in Sources */,
+				52FE9CB9229E641E00B71C01 /* SGQRCodeGenerateManager.m in Sources */,
+				52FE9C66229E347E00B71C01 /* BaseTipView.m in Sources */,
+				52FE9C85229E362D00B71C01 /* MASConstraintMaker.m in Sources */,
+				52FE9C86229E362D00B71C01 /* MASLayoutConstraint.m in Sources */,
+				52FE9C88229E362D00B71C01 /* View+MASAdditions.m in Sources */,
+				52FE9C84229E362D00B71C01 /* MASCompositeConstraint.m in Sources */,
+				52FE9C61229E31E500B71C01 /* ShareConfiguration.m in Sources */,
+				52FE9C83229E362D00B71C01 /* ViewController+MASAdditions.m in Sources */,
+				52FE9CB5229E641E00B71C01 /* UIImage+ImageSize.m in Sources */,
+				52A5CF42229BBD27002961B8 /* main.m in Sources */,
+				52FE9CB6229E641E00B71C01 /* SGQRCodeHelperTool.m in Sources */,
+				52FE9C62229E31E500B71C01 /* ShareView.m in Sources */,
+				52FE9CBA229E641E00B71C01 /* SGQRCodeAlbumManager.m in Sources */,
+				52FE9CB8229E641E00B71C01 /* SGQRCodeScanManager.m in Sources */,
+				52A5CF34229BBD26002961B8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A5CF43229BBD27002961B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A5CF4C229BBD27002961B8 /* T_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A5CF4E229BBD27002961B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A5CF57229BBD27002961B8 /* T_iPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A5CF49229BBD27002961B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A5CF2E229BBD26002961B8 /* T_iPad */;
+			targetProxy = 52A5CF48229BBD27002961B8 /* PBXContainerItemProxy */;
+		};
+		52A5CF54229BBD27002961B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A5CF2E229BBD26002961B8 /* T_iPad */;
+			targetProxy = 52A5CF53229BBD27002961B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52A5CF38229BBD26002961B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A5CF39229BBD26002961B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52A5CF3D229BBD27002961B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A5CF3E229BBD27002961B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A5CF59229BBD27002961B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52A5CF5A229BBD27002961B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A5CF5C229BBD27002961B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HU62ZV2ZW;
+				INFOPLIST_FILE = T_iPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/T_iPad/WeChatSDK1.8.4_NoPay",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tscebuy.xingliangou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52A5CF5D229BBD27002961B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HU62ZV2ZW;
+				INFOPLIST_FILE = T_iPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/T_iPad/WeChatSDK1.8.4_NoPay",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tscebuy.xingliangou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		52A5CF5F229BBD27002961B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = T_iPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.T-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T_iPad.app/T_iPad";
+			};
+			name = Debug;
+		};
+		52A5CF60229BBD27002961B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = T_iPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.T-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T_iPad.app/T_iPad";
+			};
+			name = Release;
+		};
+		52A5CF62229BBD27002961B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = T_iPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.T-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = T_iPad;
+			};
+			name = Debug;
+		};
+		52A5CF63229BBD27002961B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = T_iPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.T-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = T_iPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A5CF2A229BBD26002961B8 /* Build configuration list for PBXProject "T_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A5CF59229BBD27002961B8 /* Debug */,
+				52A5CF5A229BBD27002961B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A5CF5B229BBD27002961B8 /* Build configuration list for PBXNativeTarget "T_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A5CF5C229BBD27002961B8 /* Debug */,
+				52A5CF5D229BBD27002961B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A5CF5E229BBD27002961B8 /* Build configuration list for PBXNativeTarget "T_iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A5CF5F229BBD27002961B8 /* Debug */,
+				52A5CF60229BBD27002961B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A5CF61229BBD27002961B8 /* Build configuration list for PBXNativeTarget "T_iPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A5CF62229BBD27002961B8 /* Debug */,
+				52A5CF63229BBD27002961B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A5CF27229BBD26002961B8 /* Project object */;
+}
